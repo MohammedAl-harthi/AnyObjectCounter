@@ -1,0 +1,17 @@
+# BoT-SORT with ReID for re-identifying objects after short occlusions / off-screen gaps.
+# Ultralytics loads this alongside YOLO; see https://docs.ultralytics.com/modes/track/
+
+tracker_type: botsort
+track_high_thresh: 0.2
+track_low_thresh: 0.08
+new_track_thresh: 0.2
+# Keep "lost" tracks longer so the same person/object can be matched again after a gap
+track_buffer: 90
+match_thresh: 0.75
+fuse_score: true
+gmc_method: sparseOptFlow
+# ReID: appearance similarity (not just box overlap)
+proximity_thresh: 0.4
+appearance_thresh: 0.45
+with_reid: true
+model: auto
