@@ -26,13 +26,12 @@
 
 ## Screenshots
 
-> Add PNG or JPG files under [`Screenshots/`](Screenshots/). The paths below match the filenames the README expects.
+All assets live in [`Screenshots/`](Screenshots/):
 
 | | |
 |:--|:--|
 | **Classes & tracks** — checklist, click-to-class, track list, scrubber, export | ![Classes and track timelines](Screenshots/classes-tracks.png) |
 | **Analysis dashboard** — plots and table | ![Analysis dashboard](Screenshots/analysis-dashboard.png) |
-| **Detection settings** — YOLO / tracker / legacy controls | ![Detection settings](Screenshots/detection-settings.png) |
 
 ---
 
@@ -99,4 +98,4 @@ Specify your license here (e.g. MIT). Dependencies include **Ultralytics YOLO** 
 
 ## Contributing
 
-Pull requests welcome. When updating the README, keep images in **`Screenshots/`** and use relative paths like `Screenshots/your-image.png` so they render on GitHub.
+Pull requests welcome. Screenshot filenames: `main-window.png`, `detection-view.png`, `classes-tracks.png`, `analysis-dashboard.png` under **`Screenshots/`**.
